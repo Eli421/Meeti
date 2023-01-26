@@ -1,0 +1,22 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.meeti {
+
+    &__grid{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        gap:2rem;
+        justify-content: center;
+    }
+    
+
+    &__header {
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+}
+
+// .informacion {
+
+// }

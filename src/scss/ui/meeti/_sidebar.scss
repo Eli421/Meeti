@@ -1,0 +1,29 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.informacion {
+    
+    &__grid {
+        background-color: v.$secundario;
+        max-width:45rem;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+
+    }
+    
+    &__imagen {
+        width:100%;
+        background-size: cover;
+    }
+
+    &__texto {
+        padding: 2rem;
+        color:v.$blanco;
+        text-align:center;
+    }
+
+    &__datos {
+        color:v.$blanco;
+    }
+}
